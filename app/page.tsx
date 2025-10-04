@@ -1,11 +1,13 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Sun, Moon, Github, Linkedin, Mail, Menu, X,MapPin } from "lucide-react"
+import { Sun, Moon, Github, Linkedin, Mail, Menu, X,MapPin,Link } from "lucide-react"
+import Image from "next/image";
 
 export default function Portfolio() {
   const [isDark, setIsDark] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme")
@@ -34,11 +36,19 @@ export default function Portfolio() {
 
   <header className="mb-8">
       <div className="flex items-start gap-3">
-        <img
-          src="/cat_pic-removebg.png"
-          alt="Profile"
-          className="w-16 h-16 rounded-lg border-2 border-primary"
-        />
+<div
+  className="relative w-16 h-16 rounded-lg border-2 border-primary overflow-hidden transition-transform duration-300"
+  onMouseEnter={() => setIsHovered(true)}
+  onMouseLeave={() => setIsHovered(false)}
+  onTouchStart={() => setIsHovered(true)}
+  onTouchEnd={() => setIsHovered(false)}
+>
+  <img
+    src={isHovered ? "/hover-removebg.png" : "/cat_pic-removebg.png"}
+    alt="Profile"
+    className="w-full h-full object-cover transition-all duration-300"
+  />
+</div>
 
         <div className="flex-1 flex flex-col gap-1">
           <h1 className="text-3xl font-bold text-foreground">Yocor, Angelo T.</h1>
@@ -195,9 +205,10 @@ export default function Portfolio() {
                 href="https://example.com/waley"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base font-semibold text-foreground hover:text-primary transition-colors cursor-pointer inline-block"
+                className="text-base font-semibold text-foreground hover:text-primary transition-colors inline-flex cursor-pointer items-center"
               >
-                Lifeline-Angel — AI-Powered First Aid Chatbot
+                Lifeline-Angel — First Aid Chatbot 
+                <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
               <p className="text-muted-foreground mb-1">TypeScript, Python, Next.js, FastAPI, TensorFlow, Pandas, Numpy, NLTK,
 AWS, DigitalOcean, Tailwind, Shadcn.</p>
@@ -216,9 +227,10 @@ AWS, DigitalOcean, Tailwind, Shadcn.</p>
                 href="https://github.com/ycrangelo/GovChain.git"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base font-semibold text-foreground hover:text-primary transition-colors cursor-pointer inline-block"
+                className="text-base font-semibold text-foreground hover:text-primary transition-colors inline-flex cursor-pointer items-center"
               >
                 GovChain
+                <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
               <p className="text-muted-foreground mb-1">Next.js, Tailwind CSS, Node.js, MongoDB, Ethers.js, Solidity, Hardhat,
 OpenZeppelin, Infura, IPFS, JWT.</p>
@@ -235,9 +247,10 @@ OpenZeppelin, Infura, IPFS, JWT.</p>
                 href="https://github.com/ycrangelo/IAM-Style-Access-Control-System.git"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base font-semibold text-foreground hover:text-primary transition-colors cursor-pointer inline-block"
+                className="text-base font-semibold text-foreground hover:text-primary transition-colors inline-flex cursor-pointer items-center"
               >
-                IAM-Style Access Control System — Prototype IAM System
+                IAM Access Control Prototype
+                <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
               <p className="text-muted-foreground mb-1">Node.js, Express.js, SQLite, JWT, React, Tailwind.</p>
               <p className="text-foreground leading-relaxed">
@@ -249,9 +262,10 @@ OpenZeppelin, Infura, IPFS, JWT.</p>
                 href="https://github.com/ycrangelo/EIS.git"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base font-semibold text-foreground hover:text-primary transition-colors cursor-pointer inline-block"
+                className="text-base font-semibold text-foreground hover:text-primary transition-colors inline-flex cursor-pointer items-center"
               >
                 Employee Information System
+                <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
               <p className="text-muted-foreground mb-1"> Next.js, MongoDB, Prisma, NextUI.</p>
               <p className="text-foreground leading-relaxed">
@@ -264,9 +278,10 @@ batch upload via CSV.
                 href="https://github.com/ycrangelo/juntos-final-na-talaga-react-native-frontend.git"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base font-semibold text-foreground hover:text-primary transition-colors cursor-pointer inline-block"
+                className="text-base font-semibold text-foreground hover:text-primary transition-colors inline-flex cursor-pointer items-center"
               >
                 Juntos — Social Media App
+                <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
               <p className="text-muted-foreground mb-1"> React Native Expo, Express.js, Node.js, MongoDB, AWS S3.</p>
               <p className="text-foreground leading-relaxed">
