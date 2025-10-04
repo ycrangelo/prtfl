@@ -76,6 +76,16 @@
   --sidebar-ring: oklch(0.55 0.16 210);
 }
 
+.transparent-chart {
+  mix-blend-mode: multiply;
+  filter: brightness(1.1) contrast(1.1);
+}
+
+.dark .transparent-chart {
+  mix-blend-mode: screen;
+  filter: brightness(1.2) contrast(1) invert(1) hue-rotate(180deg);
+}
+
 
 @theme inline {
   /* optional: --font-sans, --font-serif, --font-mono if they are applied in the layout.tsx */

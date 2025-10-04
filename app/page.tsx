@@ -141,6 +141,20 @@ export default function Portfolio() {
         </div>
       </div>
     </header>
+<section className="mb-9">
+  <div className="overflow-x-auto">
+    <div 
+      className="flex items-center justify-center"
+      style={{ minHeight: '100px' }}
+    >
+      <img 
+        src="https://ghchart.rshah.org/ycrangelo" 
+        alt="ycrangelo's GitHub chart" 
+        className="w-full h-auto transparent-chart"
+      />
+    </div>
+  </div>
+</section>
 
         {/* About */}
         {/* <section className="mb-8">
