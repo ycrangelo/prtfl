@@ -148,7 +148,7 @@ export default function Portfolio() {
       style={{ minHeight: '100px' }}
     >
       <img 
-        src="https://ghchart.rshah.org/ycrangelo" 
+        src="https://ghchart.rshah.org/2025/ycrangelo"
         alt="ycrangelo's GitHub chart" 
         className="w-full h-auto transparent-chart"
       />
