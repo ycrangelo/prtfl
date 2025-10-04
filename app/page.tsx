@@ -136,6 +136,14 @@ export default function Portfolio() {
               >
                 <Github size={16} />
               </a>
+            <a
+            href="https://drive.google.com/file/d/1QZmAQcsf_5eSzBv1tqEC-Ff2xjweUUx5/view?usp=sharing"
+            className="p-2 rounded-full bg-primary text-primary-foreground hover:opacity-80 transition-opacity flex items-center justify-center"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FileText size={16} />
+          </a>
 
               <button
                 onClick={toggleTheme}
