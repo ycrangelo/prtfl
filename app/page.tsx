@@ -34,7 +34,7 @@ export default function Portfolio() {
       <div className="max-w-3xl mx-auto px-6 py-8">
         {/* Header */}
 
-  <header className="mb-8">
+<header className="mb-8">
       <div className="flex items-start gap-3">
 <div
   className="relative w-16 h-16 rounded-lg border-2 border-primary overflow-hidden transition-transform duration-300"
@@ -52,7 +52,7 @@ export default function Portfolio() {
 
         <div className="flex-1 flex flex-col gap-1">
           <h1 className="text-3xl font-bold text-foreground">Yocor, Angelo T.</h1>
-          <p className="text-muted-foreground">software engineer | tech enthusiast</p>
+          <p className="text-muted-foreground">Software Engineer | Tech Enthusiast</p>
         </div>
 
         {/* Desktop Icons */}
@@ -157,6 +157,7 @@ export default function Portfolio() {
         </div>
       </div>
     </header>
+
 <section className="mb-9">
   <div className="overflow-x-auto">
     <div 
@@ -184,8 +185,7 @@ export default function Portfolio() {
             open source projects.
           </p>
         </section> */}
-
-        {/* Experience */}
+        {/* educ */}
         <section className="mb-8">
           <h2 className="text-xl font-bold text-primary mb-2">Education</h2>
           <div className="space-y-4">
@@ -199,32 +199,58 @@ export default function Portfolio() {
           </div>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-xl font-bold text-primary mb-2">Experience</h2>
-          <div className="space-y-4">
-            <div>
-              <h3 className="text-base font-semibold text-foreground mb-1">Web developer Intern</h3>
-              <p className="text-muted-foreground mb-1">Texwipe Asia Advanced Molding Company, Inc.</p>
-              <p className="text-foreground leading-relaxed">
-                • Developed web modules using PHP, MySQL, Flask, HTML, CSS, AJAX, and jQuery, integrating backend services
-                with databases.
-              </p>
-              <p className="text-foreground leading-relaxed">
-                • Collaborated with cross-functional teams for testing and feature improvements, and assisted in creating 3D warehouse, office, and machine models using Unity.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-base font-semibold text-foreground mb-1">Computer Science Student</h3>
-              <p className="text-muted-foreground mb-1">Pamantasan ng Cabuyao</p>
-              <p className="text-foreground leading-relaxed">
-                • Contributed to the development of an AI-powered first aid chatbot thesis through AI knowledge management, testing, and diagram creation.
-              </p>
-              <p className="text-foreground leading-relaxed">
-                • Awarded 3rd Place at Software Exposition 2025
-              </p>
-            </div>
-          </div>
-        </section>
+        {/* Experience */}
+<section className="mb-8">
+  <h2 className="text-xl font-bold text-primary mb-2">Experience</h2>
+  <div className="space-y-6">
+
+    {/* Web Developer Intern */}
+    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <h3 className="text-base font-semibold text-foreground mb-1">
+          Web Developer Intern
+        </h3>
+        <p className="text-muted-foreground mb-1">
+          Texwipe Asia Advanced Molding Company, Inc.
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • Developed web modules using PHP, MySQL, Flask, HTML, CSS, AJAX, and jQuery,
+          integrating backend services with databases.
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • Collaborated with cross-functional teams for testing and feature improvements,
+          and assisted in creating 3D warehouse, office, and machine models using Unity.
+        </p>
+      </div>
+      <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
+        Feb – April 2025
+      </p>
+    </div>
+
+    {/* Computer Science Student */}
+    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <h3 className="text-base font-semibold text-foreground mb-1">
+          Computer Science Student
+        </h3>
+        <p className="text-muted-foreground mb-1">Pamantasan ng Cabuyao</p>
+        <p className="text-foreground leading-relaxed">
+          • Contributed to the development of an AI-powered first aid chatbot thesis through AI knowledge management,
+          testing, and diagram creation.
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • Awarded 3rd Place at Software Exposition 2025
+        </p>
+      </div>
+      <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
+        2024 – 2025
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
 
         {/* Projects */}
         <section className="mb-8">
@@ -232,7 +258,7 @@ export default function Portfolio() {
           <div className="space-y-4">
             <div>
               <a
-                href="https://example.com/waley"
+                href="https://github.com/ycrangelo/lifeline-angel.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-base font-semibold text-foreground hover:text-primary transition-colors inline-flex cursor-pointer items-center"
@@ -241,7 +267,7 @@ export default function Portfolio() {
                 <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
               <p className="text-muted-foreground mb-1">TypeScript, Python, Next.js, FastAPI, TensorFlow, Pandas, Numpy, NLTK,
-AWS, DigitalOcean, Tailwind, Shadcn.</p>
+AWS, DigitalOcean, Tailwind, Shadcn</p>
               <p className="text-foreground leading-relaxed">
                 • Developed AI-powered chatbot with CNN for wound classification and FNN for decisionmaking; provided real-time first aid guidance.
               </p>
@@ -263,7 +289,7 @@ AWS, DigitalOcean, Tailwind, Shadcn.</p>
                 <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
               <p className="text-muted-foreground mb-1">Next.js, Tailwind CSS, Node.js, MongoDB, Ethers.js, Solidity, Hardhat,
-OpenZeppelin, Infura, IPFS, JWT.</p>
+OpenZeppelin, Infura, IPFS, JWT</p>
               <p className="text-foreground leading-relaxed">
                  • A decentralized Web3 platform enabling transparent government
                 projects through ERC-721 NFTs and ERC-20 governance tokens.
@@ -282,7 +308,7 @@ OpenZeppelin, Infura, IPFS, JWT.</p>
                 IAM Access Control Prototype
                 <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
-              <p className="text-muted-foreground mb-1">Node.js, Express.js, SQLite, JWT, React, Tailwind.</p>
+              <p className="text-muted-foreground mb-1">Node.js, Express.js, SQLite, JWT, React, Tailwind</p>
               <p className="text-foreground leading-relaxed">
                 • Designed and developed a Fullstack Identity and Access Management (IAM) system with user, group, role, and permission management for fine-grained access control.
               </p>
@@ -297,10 +323,9 @@ OpenZeppelin, Infura, IPFS, JWT.</p>
                 Employee Information System
                 <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
-              <p className="text-muted-foreground mb-1"> Next.js, MongoDB, Prisma, NextUI.</p>
+              <p className="text-muted-foreground mb-1"> Next.js, MongoDB, Prisma, NextUI</p>
               <p className="text-foreground leading-relaxed">
-                • Built an admin dashboard to manage employees and departments, assign roles, and
-batch upload via CSV.
+                • Built an admin dashboard to manage employees and departments, assign roles, and batch upload via CSV.
               </p>
             </div>
             <div>
@@ -313,10 +338,9 @@ batch upload via CSV.
                 Juntos — Social Media App
                 <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
               </a>
-              <p className="text-muted-foreground mb-1"> React Native Expo, Express.js, Node.js, MongoDB, AWS S3.</p>
+              <p className="text-muted-foreground mb-1"> React Native Expo, Express.js, Node.js, MongoDB, AWS S3</p>
               <p className="text-foreground leading-relaxed">
-                • Created a mobile social media app allowing users to upload images, text, comment,
-save, and like posts
+                • Created a mobile social media app allowing users to upload images, text, comment, save, and like posts
               </p>
             </div>
           </div>
@@ -327,16 +351,16 @@ save, and like posts
           <h2 className="text-xl font-bold text-primary mb-2">Skills</h2>
           <div className="space-y-3">
             <div>
-              <h3 className="text-base font-semibold text-foreground mb-1">Languages</h3>
-              <p className="text-foreground leading-relaxed">JavaScript, Java, SQL TypeScript,Solidity</p>
+              <h3 className="text-base font-semibold text-foreground mb-1">Languages: </h3>
+              <p className="text-foreground leading-relaxed">JavaScript, Java, SQL TypeScript, Solidity</p>
             </div>
             <div>
-              <h3 className="text-base font-semibold text-foreground mb-1">Frameworks & Libraries</h3>
-              <p className="text-foreground leading-relaxed">Hardhat, React.js, Next.js, Express.js, Tailwind, Node.js, HeroUI</p>
+              <h3 className="text-base font-semibold text-foreground mb-1">Frameworks & Libraries: </h3>
+              <p className="text-foreground leading-relaxed">Hardhat, React.js, Next.js, Express.js, Springboot, Tailwind, Node.js, HeroUI</p>
             </div>
             <div>
-              <h3 className="text-base font-semibold text-foreground mb-1">Databases, Tools & Platforms</h3>
-              <p className="text-foreground leading-relaxed">Git, GitHub, AWS, Pinata, Vercel, PostgreSQL, MongoDB,Prisma</p>
+              <h3 className="text-base font-semibold text-foreground mb-1">Databases, Tools & Platforms: </h3>
+              <p className="text-foreground leading-relaxed">Git, GitHub, AWS, Pinata, Vercel, PostgreSQL, MongoDB, Prisma</p>
             </div>
           </div>
         </section>
