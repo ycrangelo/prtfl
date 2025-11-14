@@ -204,6 +204,31 @@ export default function Portfolio() {
   <h2 className="text-xl font-bold text-primary mb-2">Experience</h2>
   <div className="space-y-6">
 
+
+        {/* Non-Dental Technician */}
+    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <h3 className="text-base font-semibold text-foreground mb-1">
+          Non-Dental Technician
+        </h3>
+        <p className="text-muted-foreground mb-1">
+         Empress Dental Laboratories, Inc.  
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • Operated and optimized CAD/CAM and CNC milling systems for precise digital-to-physical production.
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • Managed end-to-end digital workflows, including file preparation, nesting, toolpath validation, and quality compliance.
+        </p>
+        <p className="text-foreground leading-relaxed">
+          •Ensured system efficiency through monitoring, troubleshooting, and proper material and data handling
+        </p>
+      </div>
+      <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
+        October – Present
+      </p>
+    </div>
+
     {/* Web Developer Intern */}
     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
       <div>
@@ -223,7 +248,7 @@ export default function Portfolio() {
         </p>
       </div>
       <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
-        Feb – April 2025
+        February – April 2025
       </p>
     </div>
 
