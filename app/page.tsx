@@ -52,7 +52,7 @@ export default function Portfolio() {
 
         <div className="flex-1 flex flex-col gap-1">
           <h1 className="text-3xl font-bold text-foreground">Yocor, Angelo T.</h1>
-          <p className="text-muted-foreground">Software Engineer | Tech Enthusiast</p>
+          <p className="text-muted-foreground"> Aspiring Software Engineer | Tech Enthusiast</p>
         </div>
 
         {/* Desktop Icons */}
@@ -225,7 +225,7 @@ export default function Portfolio() {
         </p>
       </div>
       <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
-        October – Present
+        October 2025 – Present
       </p>
     </div>
 
@@ -248,7 +248,7 @@ export default function Portfolio() {
         </p>
       </div>
       <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
-        February – April 2025
+        February 2025 – April 2025
       </p>
     </div>
 
