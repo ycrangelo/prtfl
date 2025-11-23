@@ -325,6 +325,20 @@ OpenZeppelin, Infura, IPFS, JWT</p>
             </div>
             <div>
               <a
+                href="https://github.com/ycrangelo/Feelify.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-base font-semibold text-foreground hover:text-primary transition-colors inline-flex cursor-pointer items-center"
+              >
+                Feelify
+                <Link size={16} className=" ml-2 text-primary opacity-80 hover:opacity-100 transition-opacity" />
+              </a>
+              <p className="text-muted-foreground mb-1">Node.js, Express.js, React Native (Expo), Google Gemini API, Spotify Web API, mongoDB</p>
+              <p className="text-foreground leading-relaxed">
+• Built a mobile app that generates personalized Spotify playlists based on the user’s detected emotion, using Google Gemini AI for sentiment analysis and the Spotify Web API for music recommendations.              </p>
+            </div>
+            <div>
+              <a
                 href="https://github.com/ycrangelo/IAM-Style-Access-Control-System.git"
                 target="_blank"
                 rel="noopener noreferrer"
