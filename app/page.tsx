@@ -204,6 +204,33 @@ export default function Portfolio() {
   <h2 className="text-xl font-bold text-primary mb-2">Experience</h2>
   <div className="space-y-6">
 
+            {/* Software Developer and Maintenance */}
+    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <h3 className="text-base font-semibold text-foreground mb-1">
+          Software Developer and Maintenance
+        </h3>
+        <p className="text-muted-foreground mb-1">
+          Tokagawa Global Corp.  
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • Maintained and monitored the parking management system to ensure reliable operation and smooth vehicle flow.
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • Created visual communication materials such as pubmats, signages, and digital layouts for public information and organizational use.
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • Developed and maintained a digital payment system for the Local Government Unit (LGU) to streamline transaction processing.
+        </p>
+        <p className="text-foreground leading-relaxed">
+          • • Provided IT support including system maintenance, troubleshooting, and technical assistance for daily operations.
+        </p>
+      </div>
+      <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
+        January 2026 – Present
+      </p>
+    </div>
+
 
         {/* Non-Dental Technician */}
     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
