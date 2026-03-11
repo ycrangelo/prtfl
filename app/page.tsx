@@ -223,7 +223,7 @@ export default function Portfolio() {
           • Developed and maintained a digital payment system for the Local Government Unit (LGU) to streamline transaction processing.
         </p>
         <p className="text-foreground leading-relaxed">
-          • • Provided IT support including system maintenance, troubleshooting, and technical assistance for daily operations.
+           • Provided IT support including system maintenance, troubleshooting, and technical assistance for daily operations.
         </p>
       </div>
       <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
@@ -252,7 +252,7 @@ export default function Portfolio() {
         </p>
       </div>
       <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
-        October 2025 – Present
+        October 2025 – January 2026
       </p>
     </div>
 
