@@ -214,9 +214,6 @@ export default function Portfolio() {
           Tokagawa Global Corp.  
         </p>
         <p className="text-foreground leading-relaxed">
-          • Maintained and monitored the parking management system to ensure reliable operation and smooth vehicle flow.
-        </p>
-        <p className="text-foreground leading-relaxed">
           • Created visual communication materials such as pubmats, signages, and digital layouts for public information and organizational use.
         </p>
         <p className="text-foreground leading-relaxed">
@@ -444,7 +441,7 @@ OpenZeppelin, Infura, IPFS, JWT</p>
     <span className="hidden sm:inline text-muted-foreground">|</span>
 
     {/* Copyright */}
-    <p className="text-muted-foreground">© 2025 Yocor Angelo. All rights reserved.</p>
+    <p className="text-muted-foreground">© 2026 Yocor Angelo. All rights reserved.</p>
   </div>
 </footer>
     </main>
