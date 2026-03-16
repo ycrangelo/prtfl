@@ -208,7 +208,7 @@ export default function Portfolio() {
     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
       <div>
         <h3 className="text-base font-semibold text-foreground mb-1">
-          Software Developer and Maintenance
+          IT Developer / Maintenance
         </h3>
         <p className="text-muted-foreground mb-1">
           Tokagawa Global Corp.  
