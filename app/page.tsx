@@ -277,7 +277,7 @@ export default function Portfolio() {
     </div>
 
     {/* Computer Science Student */}
-    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
+    {/* <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
       <div>
         <h3 className="text-base font-semibold text-foreground mb-1">
           Computer Science Student
@@ -294,7 +294,7 @@ export default function Portfolio() {
       <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
         2024 – 2025
       </p>
-    </div>
+    </div> */}
 
   </div>
 </section>
