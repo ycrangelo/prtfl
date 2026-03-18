@@ -52,7 +52,7 @@ export default function Portfolio() {
 
         <div className="flex-1 flex flex-col gap-1">
           <h1 className="text-3xl font-bold text-foreground">Yocor, Angelo T.</h1>
-          <p className="text-muted-foreground"> Aspiring Software Engineer | Tech Enthusiast</p>
+          <p className="text-muted-foreground">IT Developer | Tech Enthusiast</p>
         </div>
 
         {/* Desktop Icons */}
