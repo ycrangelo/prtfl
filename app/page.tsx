@@ -214,13 +214,16 @@ export default function Portfolio() {
           Tokagawa Global Corp.  
         </p>
         <p className="text-foreground leading-relaxed">
-          • Created visual communication materials such as pubmats, signages, and digital layouts for public information and organizational use.
+          • Provided IT support including system maintenance, troubleshooting, and technical assistance for daily operations.
         </p>
         <p className="text-foreground leading-relaxed">
-          • Developed and maintained a digital payment system for the Local Government Unit (LGU) to streamline transaction processing.
+          • Created visual communication materials such as pubmats, signages, and digital layouts for public information and
+organizational use, and designed professional promotional materials and pubmats to support branding and digital
+marketing campaigns.
         </p>
         <p className="text-foreground leading-relaxed">
-           • Provided IT support including system maintenance, troubleshooting, and technical assistance for daily operations.
+           • Managed social media pages by handling client inquiries, maintaining audience engagement, and publishing daily
+marketing content
         </p>
       </div>
       <p className="text-sm text-muted-foreground mt-2 sm:mt-0 sm:text-right whitespace-nowrap">
